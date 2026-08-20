@@ -1,4 +1,4 @@
-# 🔮 Customer Churn Prediction with Explainable AI (SHAP)
+# Customer Churn Prediction with Explainable AI (SHAP)
 
 [![Python Version](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue.svg)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/dashboard-Streamlit-FF4B4B.svg)](https://streamlit.io/)
@@ -30,7 +30,7 @@ This project goes beyond binary predictions (`Churn` or `No Churn`) by:
 
 ---
 
-## 📁 Repository Directory Structure
+##  Repository Directory Structure
 
 ```
 Customer/
@@ -72,7 +72,7 @@ Customer/
 
 ---
 
-## 📊 Model Performance & Evaluation
+##  Model Performance & Evaluation
 
 Multiple models were trained on 80% of the dataset and evaluated on the remaining 20% test set. Hyperparameter tuning was performed on XGBoost using 3-fold cross-validated `GridSearchCV` optimizing for the F1-score.
 
@@ -129,7 +129,7 @@ python src/train.py
 
 ---
 
-## 💡 How it Works (Core Pipeline Stages)
+## How it Works (Core Pipeline Stages)
 
 ### 1. Data Processing & Cleaning (`src/preprocessing.py`)
 *   Converts the `TotalCharges` column to numeric and replaces blank entries with `0.0`.
@@ -149,5 +149,5 @@ Generates structured guidelines:
 
 ---
 
-## 📜 License
+## License
 Distributed under the MIT License. See `LICENSE` for more information.
